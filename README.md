@@ -1,11 +1,6 @@
 # 🏡 Real Estate Valuation Engine
 *Predicting housing values with machine learning, FastAPI, and Streamlit.*
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-UI-red?logo=streamlit&logoColor=white)](https://streamlit.io/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-Backend-005571?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
-[![Scikit-Learn](https://img.shields.io/badge/Model-RandomForest-orange?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
-
 ---
 
 ## 🌟 Overview
