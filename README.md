@@ -47,21 +47,21 @@ Housing_Project/
 ## 🚀 Getting Started Locally
 Follow these steps to get your full-stack application up and running on your local machine:
 
-1. Clone the Repository
+- 1. Clone the Repository
 Bash
 git clone [https://github.com/your-username/real-estate-valuation-engine.git](https://github.com/your-username/real-estate-valuation-engine.git)
 cd real-estate-valuation-engine
-2. Install Dependencies
+- 2. Install Dependencies
 Ensure you have Python installed, then install the required packages:
 
 Bash
 pip install streamlit pandas plotly requests joblib scikit-learn fastapi uvicorn
-3. Run the FastAPI Backend
+- 3. Run the FastAPI Backend
 Start the backend model server to handle prediction requests:
 
 Bash
 uvicorn app.main:app --reload --port 8000
-4. Launch the Streamlit Frontend
+- 4. Launch the Streamlit Frontend
 Open a separate terminal window and run the dashboard UI:
 
 Bash
@@ -69,10 +69,10 @@ streamlit run housing_app.py
 ## 💡 How to Use
 Launch the Streamlit dashboard in your web browser. 🌐
 
-Navigate to the Live Price Prediction section on the right column.
+**Navigate to the Live Price Prediction section on the right column.
 
-Fill out the property features (such as geographic coordinates, housing median age, total rooms, population, median income, and ocean proximity). 📝
+**Fill out the property features (such as geographic coordinates, housing median age, total rooms, population, median income, and ocean proximity). 📝
 
-Click Predict Price to receive a real-time estimated valuation from the model. 💰
+**Click Predict Price to receive a real-time estimated valuation from the model. 💰
 
-Use the Dashboard Features sidebar to filter property subsets and explore interactive scatter analytics. 🔍
+**Use the Dashboard Features sidebar to filter property subsets and explore interactive scatter analytics. 🔍
